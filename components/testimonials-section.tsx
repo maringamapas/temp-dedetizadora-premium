@@ -3,50 +3,50 @@ import { Star } from "lucide-react"
 const testimonials = [
   {
     name: "Carlos Mendes",
-    role: "Gerente de Produção",
+    role: "Cliente residencial",
     avatar: "/images/avatar-01.jpg",
     content:
-      "A Prime Tornearia superou nossas expectativas em qualidade e prazo. As peças chegaram com acabamento impecável e dentro do cronograma. Parceria sólida!",
+      "A equipe chegou em 30 minutos, resolveu o entupimento do esgoto sem sujeira e ainda deu dicas de prevenção. Preço justo!",
     rating: 5,
   },
   {
     name: "Fernanda Lima",
-    role: "Engenheira Mecânica",
+    role: "Gerente de restaurante",
     avatar: "/images/avatar-02.jpg",
     content:
-      "Excelente atendimento técnico. A equipe entendeu perfeitamente nosso desenho e entregou peças com tolerâncias perfeitas. Recomendo sem hesitar.",
+      "Contratamos o plano mensal para nosso restaurante. Zero pragas, laudos em dia e atendimento sempre pontual. Recomendo!",
     rating: 5,
   },
   {
     name: "Roberto Alves",
-    role: "Diretor Industrial",
+    role: "Administradora de condomínio",
     avatar: "/images/avatar-03.jpg",
     content:
-      "Trabalhamos com a Prime há mais de 3 anos. A consistência na qualidade e a pontualidade nas entregas são impressionantes. Nosso fornecedor número um.",
+      "Tivemos uma infestação de cupins no escritório. Eles fizeram o tratamento discreto, sem atrapalhar nosso trabalho, e a garantia funcionou.",
     rating: 5,
   },
   {
     name: "Juliana Costa",
-    role: "Autônoma",
+    role: "Síndica",
     avatar: "/images/avatar-04.jpg",
     content:
-      "Recomendo de olhos fechados! Tive problema no centro da cidade e em 15 minutos estavam lá. Serviço de qualidade!",
+      "Serviço impecável na limpeza da caixa d'água do condomínio. Técnicos educados, documento de conformidade e preço acessível.",
     rating: 5,
   },
   {
     name: "Marcos Silva",
-    role: "Coordenador Técnico",
+    role: "Cliente emergencial",
     avatar: "/images/avatar-05.jpg",
     content:
-      "Precisão exemplar em todas as peças entregues. A equipe técnica é altamente qualificada e sempre disponível para tirar dúvidas. Excelente parceiro!",
+      "Chamei às 2h da manhã para um desentupimento urgente. Foram rápidos, profissionais e não cobraram taxa noturna. Salvaram meu dia!",
     rating: 5,
   },
   {
     name: "Paulo Santos",
-    role: "Gerente de Compras",
+    role: "Diretor industrial",
     avatar: "/images/avatar-06.jpg",
     content:
-      "Melhor custo-benefício da região. Qualidade superior e preços justos. Já indicamos para vários parceiros e todos ficaram satisfeitos.",
+      "A dedetização preventiva no nosso galpão industrial foi feita com planejamento e segurança. Zero parada na produção.",
     rating: 5,
   },
 ]
