@@ -16,7 +16,6 @@ const archivo = Archivo({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`https://${SITE_CONFIG.client.domain}`),
   title: `${SITE_CONFIG.client.name} | ${SITE_CONFIG.hero.badge}`,
   description: SITE_CONFIG.client.description,
   keywords: SITE_CONFIG.seo.keywords,
@@ -70,8 +69,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#10b981' },
-    { media: '(prefers-color-scheme: dark)', color: '#10b981' }
+    { media: '(prefers-color-scheme: light)', color: '#f57c00' },
+    { media: '(prefers-color-scheme: dark)', color: '#f57c00' }
   ],
   width: 'device-width',
   initialScale: 1,
@@ -90,7 +89,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Dedetizadora" />
+        <meta name="apple-mobile-web-app-title" content="Prime Tornearia" />
       </head>
       <body
         className={`${inter.variable} ${archivo.variable} font-sans antialiased`}

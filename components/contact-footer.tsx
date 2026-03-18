@@ -40,7 +40,7 @@ export function ContactFooter() {
                   href={`https://wa.me/${SITE_CONFIG.contact.whatsapp}`} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-emerald-400 hover:from-emerald-400 hover:to-emerald-300 text-white px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg"
+                  className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-orange-500 to-orange-400 hover:from-orange-400 hover:to-orange-300 text-white px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg"
                 >
                   {SITE_CONFIG.nav.ctaText}
                   <ArrowRight className="h-4 w-4" strokeWidth={1.5} />
@@ -87,7 +87,7 @@ export function ContactFooter() {
                       href={SITE_CONFIG.social.instagram}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
+                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-orange-500 hover:to-orange-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2"
                       aria-label="Instagram"
                     >
                       <Instagram className="h-4 w-4" strokeWidth={1.5} />
@@ -96,7 +96,7 @@ export function ContactFooter() {
                       href={SITE_CONFIG.social.facebook}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
+                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-orange-500 hover:to-orange-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2"
                       aria-label="Facebook"
                     >
                       <Facebook className="h-4 w-4" strokeWidth={1.5} />
@@ -105,7 +105,7 @@ export function ContactFooter() {
                       href={SITE_CONFIG.social.twitter}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
+                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-orange-500 hover:to-orange-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2"
                       aria-label="Twitter"
                     >
                       <Twitter className="h-4 w-4" strokeWidth={1.5} />
@@ -114,7 +114,7 @@ export function ContactFooter() {
                       href={SITE_CONFIG.social.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
+                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-orange-500 hover:to-orange-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2"
                       aria-label="LinkedIn"
                     >
                       <Linkedin className="h-4 w-4" strokeWidth={1.5} />
@@ -136,7 +136,7 @@ export function ContactFooter() {
                     href={SITE_CONFIG.footer.madeBy.link} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="text-emerald-500 hover:text-emerald-400 transition-colors font-medium"
+                    className="text-orange-500 hover:text-orange-400 transition-colors font-medium"
                   >
                     WebStudio
                   </a>

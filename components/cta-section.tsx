@@ -33,7 +33,7 @@ export function CTASection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-emerald-400 py-24 border-t border-b border-white">
+    <section ref={sectionRef} className="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-orange-400 py-24 border-t border-b border-white">
       <div className="absolute inset-0 bg-[url('/images/grid.svg')] opacity-10" />
       <div className="relative mx-auto max-w-4xl px-4 text-center lg:px-8">
         <h2 className="font-display text-3xl font-bold text-primary-foreground md:text-5xl animate-slide-up">

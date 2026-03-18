@@ -1,38 +1,38 @@
 import Image from "next/image"
-import { Bug, Droplets, Shield, Clock, Plus, Monitor, Smartphone, Globe, MessageCircle, Users, Zap } from "lucide-react"
+import { Sparkles, Activity, Gauge, Cog, Plus, Monitor, Smartphone, Globe, MessageCircle, Users, Zap } from "lucide-react"
 
 export function Section2() {
   const projects = [
     {
-      title: "Dedetização",
-      category: "Segurança",
-      image: "https://placehold.co/600x400/10b981/white?text=Tecnico+Dedetizacao",
-      icon: Bug,
+      title: "Peças CNC",
+      category: "Precisão",
+      image: "/images/project-1.jpg",
+      icon: Sparkles,
     },
     {
-      title: "Desentupimento",
-      category: "Hidráulico",
-      image: "https://placehold.co/600x400/059669/white?text=Equipamento+Rotativo",
-      icon: Droplets,
+      title: "Tornearia",
+      category: "Industrial",
+      image: "/images/project-2.jpg",
+      icon: Gauge,
     },
     {
-      title: "Aplicação Segura",
-      category: "ANVISA",
-      image: "https://placehold.co/600x400/0d9488/white?text=Aplicacao+ANVISA",
-      icon: Shield,
+      title: "Controle de Qualidade",
+      category: "Inspeção",
+      image: "/images/project-3.jpg",
+      icon: Activity,
     },
     {
-      title: "Atendimento 24h",
-      category: "Emergência",
-      image: "https://placehold.co/600x400/14b8a6/white?text=Atendimento+24h",
-      icon: Clock,
+      title: "Fresagem CNC",
+      category: "Automação",
+      image: "/images/project-4.jpg",
+      icon: Cog,
     },
   ]
 
   const services = [
-    "Dedetização Residencial",
-    "Desentupimento 24h",
-    "Controle de Pragas",
+    "Usinagem de Precisão",
+    "Tornearia CNC",
+    "Fresagem e Retifica",
   ]
 
   return (
@@ -53,10 +53,10 @@ export function Section2() {
         <div className="flex flex-col justify-between min-h-full">
           <div>
             <span className="inline-block px-3 py-1.5 bg-primary text-primary-foreground rounded-full text-sm font-semibold">
-              MODELO DEMONSTRATIVO
+              ✨ MODELO DEMONSTRATIVO
             </span>
             <h2 className="text-[44px] sm:text-6xl lg:text-7xl leading-[0.9] text-foreground mt-2 tracking-tight font-display">
-              Este é um <span className="text-primary">Modelo de Site</span> para Dedetizadoras
+              Este é um <span className="text-primary">Modelo de Site</span> para Tornearias
             </h2>
 
             {/* subtle plus markers with divider */}
@@ -82,7 +82,7 @@ export function Section2() {
             <div className="space-y-4">
               <div className="flex gap-3 group animate-slide-up" style={{ animationDelay: '0.1s' }}>
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-emerald-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-emerald-400">
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-orange-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-orange-400">
                     <Monitor className="w-5 h-5 text-primary transition-colors group-hover:text-primary-foreground" />
                   </div>
                 </div>
@@ -94,7 +94,7 @@ export function Section2() {
               
               <div className="flex gap-3 group animate-slide-up" style={{ animationDelay: '0.2s' }}>
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-emerald-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-emerald-400">
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-orange-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-orange-400">
                     <Smartphone className="w-5 h-5 text-primary transition-colors group-hover:text-primary-foreground" />
                   </div>
                 </div>
@@ -106,7 +106,7 @@ export function Section2() {
               
               <div className="flex gap-3 group animate-slide-up" style={{ animationDelay: '0.3s' }}>
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-emerald-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-emerald-400">
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-orange-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-orange-400">
                     <Globe className="w-5 h-5 text-primary transition-colors group-hover:text-primary-foreground" />
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export function Section2() {
               
               <div className="flex gap-3 group animate-slide-up" style={{ animationDelay: '0.4s' }}>
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-emerald-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-emerald-400">
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-orange-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-orange-400">
                     <MessageCircle className="w-5 h-5 text-primary transition-colors group-hover:text-primary-foreground" />
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export function Section2() {
               
               <div className="flex gap-3 group animate-slide-up" style={{ animationDelay: '0.5s' }}>
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-emerald-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-emerald-400">
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-orange-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-orange-400">
                     <Users className="w-5 h-5 text-primary transition-colors group-hover:text-primary-foreground" />
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export function Section2() {
               
               <div className="flex gap-3 group animate-slide-up" style={{ animationDelay: '0.6s' }}>
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-emerald-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-emerald-400">
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/10 to-orange-400/10 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary group-hover:to-orange-400">
                     <Zap className="w-5 h-5 text-primary transition-colors group-hover:text-primary-foreground" />
                   </div>
                 </div>
@@ -167,7 +167,6 @@ export function Section2() {
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
-                unoptimized
               />
               <div className="absolute top-3 left-3">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-background/90 text-foreground border border-border backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
@@ -187,7 +186,6 @@ export function Section2() {
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
-                unoptimized
               />
               <div className="absolute top-3 left-3">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-background/90 text-foreground border border-border backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
@@ -210,7 +208,6 @@ export function Section2() {
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
-                unoptimized
               />
               <div className="absolute top-3 left-3">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-background/90 text-foreground border border-border backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
@@ -230,7 +227,6 @@ export function Section2() {
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
-                unoptimized
               />
               <div className="absolute top-3 left-3">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-background/90 text-foreground border border-border backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
@@ -255,7 +251,7 @@ export function Section2() {
               href="https://wa.me/5544999324635?text=Quero%20um%20site%20assim!"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-primary to-emerald-400 hover:from-emerald-400 hover:to-primary text-primary-foreground font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-primary to-orange-400 hover:from-orange-400 hover:to-primary text-primary-foreground font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
               <MessageCircle className="w-5 h-5" />
               Quero um site assim!

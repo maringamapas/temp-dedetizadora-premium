@@ -1,33 +1,33 @@
-import { Shield, Clock, UserCheck, Wrench } from "lucide-react"
+import { Shield, Zap, Users, TrendingUp } from "lucide-react"
 
 const differentials = [
   {
     icon: Shield,
     number: "01",
-    title: "Produtos Registrados e Seguros",
+    title: "Controle de Qualidade Rigoroso",
     description:
-      "Utilizamos apenas insumos aprovados pela ANVISA, com baixa toxidade e aplicação técnica adequada.",
+      "Inspeção dimensional em cada etapa do processo com instrumentos de medição calibrados. Garantimos que cada peça atenda as especificações do projeto.",
   },
   {
-    icon: Clock,
+    icon: Zap,
     number: "02",
-    title: "Atendimento Emergencial 24h",
+    title: "Agilidade na Entrega",
     description:
-      "Problemas não esperam. Nossa equipe está pronta para atender sua emergência a qualquer hora, sem taxa extra noturna.",
+      "Estrutura otimizada para atender demandas urgentes sem comprometer a qualidade. Entregas rápidas para manter sua linha de produção ativa.",
   },
   {
-    icon: UserCheck,
+    icon: Users,
     number: "03",
-    title: "Técnicos Certificados",
+    title: "Equipe Especializada",
     description:
-      "Profissionais treinados, uniformizados e com curso de controle de vetores. Atendimento educado e transparente.",
+      "Profissionais com anos de experiência em usinagem de precisão, capacitados para interpretar desenhos técnicos e oferecer soluções inteligentes.",
   },
   {
-    icon: Wrench,
+    icon: TrendingUp,
     number: "04",
-    title: "Equipamentos Modernos",
+    title: "Tecnologia de Ponta",
     description:
-      "Máquinas de desentupimento de alta pressão, pulverizadores calibrados e tecnologia para diagnóstico preciso.",
+      "Parque de máquinas moderno com tornos CNC, fresas e equipamentos de medição de última geração para resultados consistentes e precisos.",
   },
 ]
 
@@ -54,12 +54,12 @@ export function DifferentialsSection() {
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               <div className="flex-shrink-0">
-                <span className="font-display text-5xl font-bold bg-gradient-to-br from-primary/30 to-emerald-400/30 bg-clip-text text-transparent">
+                <span className="font-display text-5xl font-bold bg-gradient-to-br from-primary/30 to-orange-400/30 bg-clip-text text-transparent">
                   {item.number}
                 </span>
               </div>
               <div>
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-emerald-400/10 transition-all duration-300 hover:scale-110 hover:rotate-3">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-orange-400/10 transition-all duration-300 hover:scale-110 hover:rotate-3">
                   <item.icon className="h-5 w-5 text-primary" />
                 </div>
                 <h3 className="font-display text-xl font-semibold text-foreground hover:text-primary transition-colors">

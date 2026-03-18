@@ -14,30 +14,30 @@ interface GalleryImage {
 const galleryData: GalleryImage[] = [
   {
     id: 1,
-    src: "https://placehold.co/600x400/10b981/white?text=Dedetizacao+Segura",
-    alt: "Dedetização residencial segura",
-    title: "Dedetização residencial segura",
+    src: "/images/foto-01.jpg",
+    alt: "Tornearia CNC de precisão",
+    title: "Tornearia CNC de precisão",
     span: "col-span-1"
   },
   {
     id: 2,
-    src: "https://placehold.co/800x400/059669/white?text=Desentupimento+24h",
-    alt: "Desentupimento sem quebra-quebra",
-    title: "Desentupimento sem quebra-quebra",
+    src: "/images/foto-02.jpg",
+    alt: "Fresagem industrial",
+    title: "Fresagem industrial",
     span: "col-span-2"
   },
   {
     id: 4,
-    src: "https://placehold.co/800x400/0d9488/white?text=Limpeza+Caixa+Dagua",
-    alt: "Limpeza de caixa d'água certificada",
-    title: "Limpeza de caixa d'água certificada",
+    src: "/images/foto-04.jpg",
+    alt: "Peças torneadas",
+    title: "Peças torneadas",
     span: "col-span-2"
   },
   {
     id: 5,
-    src: "https://placehold.co/600x400/14b8a6/white?text=Equipe+Uniformizada",
-    alt: "Equipe uniformizada em ação",
-    title: "Equipe uniformizada em ação",
+    src: "/images/foto-05.jpg",
+    alt: "Processo de usinagem",
+    title: "Processo de usinagem",
     span: "col-span-1"
   },
 ]
@@ -101,7 +101,7 @@ export function GaleriaFotos() {
               </span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-              Confira alguns dos nossos serviços de dedetização e desentupimento
+              Confira alguns dos nossos projetos de usinagem de precisão
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[300px] gap-4">
