@@ -3,6 +3,7 @@
 import { Phone, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useEffect, useRef, useState } from "react"
+import Image from "next/image"
 import { SITE_CONFIG } from "@/src/config/site-config"
 
 export function CTASection() {
@@ -33,8 +34,16 @@ export function CTASection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-emerald-400 py-24 border-t border-b border-white">
-      <div className="absolute inset-0 bg-[url('/images/grid.svg')] opacity-10" />
+    <section ref={sectionRef} className="relative overflow-hidden py-24 border-t border-b border-white">
+      <Image
+        src="/images/cta-clinica-dedetizacao.jpg"
+        alt="Equipe profissional de dedetização em clínica"
+        fill
+        sizes="100vw"
+        className="object-cover object-center"
+        priority={false}
+      />
+      <div className="absolute inset-0 bg-primary/80" />
       <div className="relative mx-auto max-w-4xl px-4 text-center lg:px-8">
         <h2 className="font-display text-3xl font-bold text-primary-foreground md:text-5xl animate-slide-up">
           <span className="text-balance">
