@@ -35,6 +35,7 @@ export function AboutSection() {
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
+                unoptimized
               />
             </div>
             <div className="absolute -bottom-6 -right-6 hidden rounded-2xl bg-gradient-to-br from-primary to-emerald-400 p-6 text-primary-foreground lg:block shadow-xl transition-transform duration-300 hover:scale-110 hover:rotate-2">

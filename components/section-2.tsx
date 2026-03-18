@@ -167,6 +167,7 @@ export function Section2() {
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
+                unoptimized
               />
               <div className="absolute top-3 left-3">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-background/90 text-foreground border border-border backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
@@ -186,6 +187,7 @@ export function Section2() {
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
+                unoptimized
               />
               <div className="absolute top-3 left-3">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-background/90 text-foreground border border-border backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
@@ -208,6 +210,7 @@ export function Section2() {
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
+                unoptimized
               />
               <div className="absolute top-3 left-3">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-background/90 text-foreground border border-border backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
@@ -227,6 +230,7 @@ export function Section2() {
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
+                unoptimized
               />
               <div className="absolute top-3 left-3">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-background/90 text-foreground border border-border backdrop-blur-sm transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">

@@ -8,11 +8,12 @@ export function HeroSection() {
     <section id="inicio" className="relative min-h-screen overflow-hidden">
       <Image
         src={SITE_CONFIG.hero.heroImage}
-        alt="Maquina de tornearia CNC em operacao com faiscas de precisao"
+        alt="Servico profissional de dedetizacao e controle de pragas"
         fill
         sizes="100vw"
         className="object-cover"
         priority
+        unoptimized
       />
       <div className="absolute inset-0 bg-accent/80" />
 
