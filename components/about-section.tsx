@@ -30,12 +30,11 @@ export function AboutSection() {
           <div className="relative group">
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl transition-all duration-500 group-hover:shadow-2xl group-hover:scale-[1.02]">
               <Image
-                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
+                src="/images/mulher-dedetizadora.jpg"
                 alt="Profissional da Dedetizadora Premium realizando serviço"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
-                unoptimized
               />
             </div>
             <div className="absolute -bottom-6 -right-6 hidden rounded-2xl bg-gradient-to-br from-primary to-emerald-400 p-6 text-primary-foreground lg:block shadow-xl transition-transform duration-300 hover:scale-110 hover:rotate-2">
