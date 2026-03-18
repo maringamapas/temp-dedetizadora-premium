@@ -2,51 +2,51 @@ import { Star } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Carlos Mendes",
-    role: "Gerente de Produção",
+    name: "Maria Santos",
+    role: "Residência - Zona Sul",
     avatar: "/images/avatar-01.jpg",
     content:
-      "A Prime Tornearia superou nossas expectativas em qualidade e prazo. As peças chegaram com acabamento impecável e dentro do cronograma. Parceria sólida!",
+      "Excelente serviço! Tinha problema sério com baratas e em uma aplicação resolveram tudo. Equipe muito educada e profissional. Super recomendo!",
+    rating: 5,
+  },
+  {
+    name: "João Oliveira",
+    role: "Síndico de Condomínio",
+    avatar: "/images/avatar-02.jpg",
+    content:
+      "Contratamos para fazer a dedetização do condomínio inteiro. Trabalho impecável, preço justo e garantia que cumpriram. Já renovamos o contrato anual.",
+    rating: 5,
+  },
+  {
+    name: "Ana Paula Costa",
+    role: "Empresária - Restaurante",
+    avatar: "/images/avatar-03.jpg",
+    content:
+      "No ramo de alimentação não podemos ter pragas. A Dedetizadora Premium cuida do meu restaurante há 3 anos. Nunca tive problemas com vigilância sanitária.",
+    rating: 5,
+  },
+  {
+    name: "Carlos Mendes",
+    role: "Residência - Centro",
+    avatar: "/images/avatar-04.jpg",
+    content:
+      "Chamei às 22h com problema de entupimento grave. Em 40 minutos estavam na minha casa e resolveram rapidamente. Atendimento 24h de verdade!",
     rating: 5,
   },
   {
     name: "Fernanda Lima",
-    role: "Engenheira Mecânica",
-    avatar: "/images/avatar-02.jpg",
+    role: "Gerente de Hotel",
+    avatar: "/images/avatar-05.jpg",
     content:
-      "Excelente atendimento técnico. A equipe entendeu perfeitamente nosso desenho e entregou peças com tolerâncias perfeitas. Recomendo sem hesitar.",
+      "Profissionalismo exemplar. Fazem o serviço com discrição, importante para nosso ramo. Produtos sem cheiro forte. Clientes nem percebem a manutenção.",
     rating: 5,
   },
   {
     name: "Roberto Alves",
-    role: "Diretor Industrial",
-    avatar: "/images/avatar-03.jpg",
-    content:
-      "Trabalhamos com a Prime há mais de 3 anos. A consistência na qualidade e a pontualidade nas entregas são impressionantes. Nosso fornecedor número um.",
-    rating: 5,
-  },
-  {
-    name: "Juliana Costa",
-    role: "Autônoma",
-    avatar: "/images/avatar-04.jpg",
-    content:
-      "Recomendo de olhos fechados! Tive problema no centro da cidade e em 15 minutos estavam lá. Serviço de qualidade!",
-    rating: 5,
-  },
-  {
-    name: "Marcos Silva",
-    role: "Coordenador Técnico",
-    avatar: "/images/avatar-05.jpg",
-    content:
-      "Precisão exemplar em todas as peças entregues. A equipe técnica é altamente qualificada e sempre disponível para tirar dúvidas. Excelente parceiro!",
-    rating: 5,
-  },
-  {
-    name: "Paulo Santos",
-    role: "Gerente de Compras",
+    role: "Residência - Jardim Alvorada",
     avatar: "/images/avatar-06.jpg",
     content:
-      "Melhor custo-benefício da região. Qualidade superior e preços justos. Já indicamos para vários parceiros e todos ficaram satisfeitos.",
+      "Tive infestação de cupins que estava destruindo meus móveis. Fizeram o tratamento completo com garantia de 2 anos. Problema resolvido de vez!",
     rating: 5,
   },
 ]
@@ -65,7 +65,7 @@ export function TestimonialsSection() {
             </span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-accent-foreground/60">
-            A confiança dos nossos parceiros é o nosso maior reconhecimento.
+            A satisfação dos nossos clientes é nossa maior recompensa.
           </p>
         </div>
 

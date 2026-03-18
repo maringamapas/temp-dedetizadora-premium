@@ -2,17 +2,17 @@
 export const SITE_CONFIG = {
   // Informações Gerais do Cliente
   client: {
-    name: "Prime Tornearia",
-    shortName: "Prime",
-    domain: "www.primetornearia.com.br",
-    description: "Tornearia, fresagem e usinagem CNC de precisão em Maringá - PR. Qualidade superior, pontualidade na entrega e preços competitivos.",
+    name: "Dedetizadora Premium",
+    shortName: "Premium",
+    domain: "www.dedetizadorapremium.com.br",
+    description: "Dedetização, desentupimento e controle de pragas em Maringá - PR. Atendimento 24h com garantia e produtos aprovados pela ANVISA.",
   },
 
   // Identidade Visual (Cores)
   // Dica: Podes usar estes valores diretamente no teu Tailwind ou CSS Variables
   theme: {
     colors: {
-      primary: "#f97316",    // Cor principal (laranja)
+      primary: "#10b981",    // Cor principal (verde - transmite limpeza e confiança)
       secondary: "#1e293b",  // Cor secundária (cinza escuro)
       accent: "#0f172a",     // Cor de destaque (azul escuro/preto)
     },
@@ -21,42 +21,42 @@ export const SITE_CONFIG = {
 
   // Conteúdo da Home Page (Hero Section)
   hero: {
-    badge: "Usinagem de Precisão em Maringá - PR",
-    title: "Precisão que transforma metal em solução",
-    highlight: "metal em solução",
-    subtitle: "Tornearia, fresagem e usinagem CNC com qualidade superior, pontualidade na entrega e preços competitivos para sua indústria.",
-    ctaText: "Fale Conosco pelo WhatsApp",
-    ctaLink: "https://wa.me/5544999324635?text=Olá! Gostaria de solicitar um orçamento.",
+    badge: "Controle de Pragas em Maringá - PR",
+    title: "Soluções Rápidas em Dedetização e Desentupimento",
+    highlight: "Dedetização e Desentupimento",
+    subtitle: "Atendimento 24h para residências, condomínios e empresas com garantia e segurança. Produtos aprovados pela ANVISA.",
+    ctaText: "Solicitar Orçamento via WhatsApp",
+    ctaLink: "https://wa.me/5544999324635?text=Olá! Gostaria de solicitar um orçamento para dedetização/desentupimento.",
     ctaSecondary: "44 99932-4635",
-    heroImage: "/images/hero-tornearia.jpg",
+    heroImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1920&q=80",
     stats: {
-      experience: { value: "15+", label: "Anos de experiência" },
-      projects: { value: "500+", label: "Projetos entregues" },
+      experience: { value: "10+", label: "Anos de experiência" },
+      projects: { value: "2000+", label: "Atendimentos realizados" },
     },
   },
 
   // Seção de Contactos
   contact: {
-    email: "contato@primetornearia.com.br",
+    email: "contato@dedetizadorapremium.com.br",
     phone: "(44) 99932-4635",
     phoneRaw: "44999324635",
     whatsapp: "5544999324635",
-    address: "Maringá, PR • Região Metropolitana",
+    address: "Maringá, PR • Atendemos toda a região",
     googleMapsLink: "https://goo.gl/maps/...",
   },
 
   // Redes Sociais
   social: {
-    instagram: "https://instagram.com/primetornearia",
-    facebook: "https://facebook.com/primetornearia",
-    twitter: "https://twitter.com/primetornearia",
-    linkedin: "https://linkedin.com/company/primetornearia",
+    instagram: "https://instagram.com/dedetizadorapremium",
+    facebook: "https://facebook.com/dedetizadorapremium",
+    twitter: "https://twitter.com/dedetizadorapr",
+    linkedin: "https://linkedin.com/company/dedetizadorapremium",
   },
 
   // Configurações de SEO (Essencial para o site aparecer no Google)
   seo: {
     ogImage: "/images/og-images.jpg",
-    keywords: ["tornearia", "usinagem CNC", "fresagem", "Maringá", "usinagem de precisão", "tornearia CNC"],
+    keywords: ["dedetização", "desentupimento", "controle de pragas", "Maringá", "descupinização", "limpeza de caixa d'água", "dedetizadora 24h"],
   },
 
   // Navegação
@@ -75,12 +75,12 @@ export const SITE_CONFIG = {
 
   // Footer
   footer: {
-    description: "Precisão e qualidade em usinagem",
+    description: "Proteção e higiene para sua família",
     services: [
-      "Tornearia CNC",
-      "Usinagem",
-      "Fresamento",
-      "Projetos Sob Medida",
+      "Dedetização",
+      "Desentupimento",
+      "Descupinização",
+      "Limpeza de Caixa D'água",
     ],
     quickLinks: [
       { href: "#inicio", label: "Início" },
@@ -92,7 +92,7 @@ export const SITE_CONFIG = {
       privacy: "#",
       terms: "#",
     },
-    copyright: "© 2025 Prime Tornearia. Todos os direitos reservados.",
+    copyright: "© 2025 Dedetizadora Premium. Todos os direitos reservados.",
     madeBy: {
       text: "WebStudio",
       link: "https://webstudiomga.vercel.app/",
@@ -101,11 +101,11 @@ export const SITE_CONFIG = {
 
   // CTA Section
   cta: {
-    title: "Pronto para dar forma ao seu projeto?",
-    description: "Entre em contato agora e receba um orçamento personalizado para suas peças. Nossa equipe está pronta para transformar suas ideias em realidade.",
+    title: "Problemas com pragas ou entupimento?",
+    description: "Entre em contato agora e receba um orçamento gratuito. Nossa equipe está pronta para atender você 24 horas por dia, 7 dias por semana.",
     primaryButton: "Chamar no WhatsApp",
     secondaryButton: "(44) 99932-4635",
-    footnote: "Resposta em menos de 24h. Orçamento sem compromisso.",
+    footnote: "Atendimento emergencial 24h. Orçamento sem compromisso.",
   },
 } as const;
 

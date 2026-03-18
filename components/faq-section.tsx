@@ -7,34 +7,34 @@ import {
 
 const faqs = [
   {
-    question: "Quais tipos de materiais voces usinam?",
+    question: "Os produtos utilizados são seguros para crianças e animais?",
     answer:
-      "Trabalhamos com uma ampla variedade de materiais, incluindo aco carbono, aco inoxidavel, aluminio, latao, bronze, cobre, nylon, poliacetal e outros plasticos de engenharia. Consulte-nos para materiais especificos.",
+      "Sim! Utilizamos apenas produtos registrados e aprovados pela ANVISA, que são seguros para sua família e pets quando aplicados corretamente. Após a aplicação, recomendamos aguardar o tempo de secagem indicado antes de permitir o acesso de crianças e animais ao local.",
   },
   {
-    question: "Qual o prazo medio de entrega?",
+    question: "Qual o prazo de garantia dos serviços?",
     answer:
-      "O prazo depende da complexidade e quantidade de pecas. Pecas simples podem ser entregues em 2-3 dias uteis. Projetos mais complexos geralmente levam de 5 a 10 dias uteis. Trabalhamos tambem com regime de urgencia.",
+      "Oferecemos garantia de 3 a 6 meses dependendo do serviço contratado. Para dedetização residencial, a garantia é de 3 meses. Para descupinização e contratos comerciais, oferecemos até 6 meses de garantia. Se houver reincidência, retornamos sem custo adicional.",
   },
   {
-    question: "Voces trabalham com pecas unitarias?",
+    question: "Vocês atendem emergências 24 horas?",
     answer:
-      "Sim! Atendemos desde pecas unitarias e prototipos ate producao em serie. Cada projeto recebe a mesma atencao e qualidade, independentemente da quantidade.",
+      "Sim! Nossa equipe está disponível 24 horas por dia, 7 dias por semana, incluindo feriados. Entendemos que problemas com pragas e entupimentos não escolhem hora para acontecer. Ligue para nosso número e teremos prazer em atendê-lo.",
   },
   {
-    question: "Como solicitar um orcamento?",
+    question: "Como solicitar um orçamento?",
     answer:
-      "Voce pode nos enviar o desenho tecnico ou amostra da peca pelo WhatsApp (44 99932-4635) ou trazer diretamente em nosso endereco em Maringa. Respondemos orcamentos em ate 24 horas.",
+      "Você pode solicitar um orçamento gratuito pelo WhatsApp (44 99932-4635), por telefone ou preenchendo nosso formulário de contato. Respondemos em até 30 minutos durante o horário comercial. O orçamento é sem compromisso.",
   },
   {
-    question: "Qual a precisao das pecas?",
+    question: "Preciso sair de casa durante a dedetização?",
     answer:
-      "Nossos equipamentos CNC alcancam tolerancias de ate 0,01mm. Na tornearia convencional, trabalhamos com tolerancias de ate 0,05mm. A precisao final depende das especificacoes do projeto.",
+      "Depende do tipo de tratamento. Para aplicações gel e iscas, não é necessário sair. Para pulverizações, recomendamos ausentar-se por 2 a 4 horas e manter o local ventilado após o retorno. Nossa equipe orientará sobre cada caso específico.",
   },
   {
-    question: "Voces emitem nota fiscal?",
+    question: "Vocês emitem nota fiscal?",
     answer:
-      "Sim, emitimos nota fiscal para todos os servicos prestados, tanto para pessoa fisica quanto juridica.",
+      "Sim, emitimos nota fiscal para todos os serviços prestados, tanto para pessoa física quanto jurídica. Também fornecemos certificado de dedetização, documento obrigatório para estabelecimentos comerciais e exigido pela vigilância sanitária.",
   },
 ]
 
@@ -44,13 +44,13 @@ export function FAQSection() {
       <div className="mx-auto max-w-3xl px-4 lg:px-8">
         <div className="text-center">
           <span className="text-sm font-semibold uppercase tracking-widest text-primary">
-            Duvidas Frequentes
+            Dúvidas Frequentes
           </span>
           <h2 className="mt-3 font-display text-3xl font-bold text-foreground md:text-4xl">
             <span className="text-balance">Perguntas frequentes</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            Tire suas duvidas sobre nossos servicos de usinagem.
+            Tire suas dúvidas sobre nossos serviços de dedetização e desentupimento.
           </p>
         </div>
 

@@ -1,33 +1,33 @@
-import { Shield, Zap, Users, TrendingUp } from "lucide-react"
+import { Shield, Zap, Users, Award } from "lucide-react"
 
 const differentials = [
   {
     icon: Shield,
     number: "01",
-    title: "Controle de Qualidade Rigoroso",
+    title: "Produtos Aprovados pela ANVISA",
     description:
-      "Inspeção dimensional em cada etapa do processo com instrumentos de medição calibrados. Garantimos que cada peça atenda as especificações do projeto.",
+      "Utilizamos apenas produtos registrados e aprovados pelos órgãos competentes, garantindo segurança para sua família, pets e meio ambiente.",
   },
   {
     icon: Zap,
     number: "02",
-    title: "Agilidade na Entrega",
+    title: "Atendimento Emergencial 24h",
     description:
-      "Estrutura otimizada para atender demandas urgentes sem comprometer a qualidade. Entregas rápidas para manter sua linha de produção ativa.",
+      "Estamos disponíveis 24 horas por dia, 7 dias por semana. Problemas com pragas ou entupimentos não esperam e nós também não.",
   },
   {
     icon: Users,
     number: "03",
-    title: "Equipe Especializada",
+    title: "Equipe Certificada",
     description:
-      "Profissionais com anos de experiência em usinagem de precisão, capacitados para interpretar desenhos técnicos e oferecer soluções inteligentes.",
+      "Profissionais treinados e certificados, com anos de experiência em controle de pragas e desentupimento. Atendimento profissional e cortês.",
   },
   {
-    icon: TrendingUp,
+    icon: Award,
     number: "04",
-    title: "Tecnologia de Ponta",
+    title: "Garantia de Serviço",
     description:
-      "Parque de máquinas moderno com tornos CNC, fresas e equipamentos de medição de última geração para resultados consistentes e precisos.",
+      "Oferecemos garantia em todos os nossos serviços. Se o problema persistir dentro do período de garantia, voltamos sem custo adicional.",
   },
 ]
 
@@ -41,7 +41,7 @@ export function DifferentialsSection() {
           </span>
           <h2 className="mt-3 font-display text-3xl font-bold text-foreground md:text-4xl">
             <span className="text-balance">
-              Diferenciais que fazem a diferença
+              Diferenciais que garantem sua tranquilidade
             </span>
           </h2>
         </div>
@@ -54,12 +54,12 @@ export function DifferentialsSection() {
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               <div className="flex-shrink-0">
-                <span className="font-display text-5xl font-bold bg-gradient-to-br from-primary/30 to-orange-400/30 bg-clip-text text-transparent">
+                <span className="font-display text-5xl font-bold bg-gradient-to-br from-primary/30 to-emerald-400/30 bg-clip-text text-transparent">
                   {item.number}
                 </span>
               </div>
               <div>
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-orange-400/10 transition-all duration-300 hover:scale-110 hover:rotate-3">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-emerald-400/10 transition-all duration-300 hover:scale-110 hover:rotate-3">
                   <item.icon className="h-5 w-5 text-primary" />
                 </div>
                 <h3 className="font-display text-xl font-semibold text-foreground hover:text-primary transition-colors">
