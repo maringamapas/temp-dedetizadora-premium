@@ -28,7 +28,7 @@ export const SITE_CONFIG = {
     ctaText: "Solicitar Orçamento via WhatsApp",
     ctaLink: "https://wa.me/5544999324635?text=Olá! Gostaria de solicitar um orçamento para dedetização/desentupimento.",
     ctaSecondary: "44 99932-4635",
-    heroImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1920&q=80",
+    heroImage: "/images/dedetizacao-mosquitos.jpg",
     stats: {
       experience: { value: "10+", label: "Anos de experiência" },
       projects: { value: "2000+", label: "Atendimentos realizados" },

@@ -13,7 +13,6 @@ export function HeroSection() {
         sizes="100vw"
         className="object-cover"
         priority
-        unoptimized
       />
       <div className="absolute inset-0 bg-accent/80" />
 
