@@ -1,41 +1,41 @@
-import { Cog, Wrench, Settings, Ruler, CircleDot, Hammer } from "lucide-react"
+import { Bug, Droplets, Shield, Home, Rat, Wrench } from "lucide-react"
 
 const services = [
   {
-    icon: Cog,
-    title: "Tornearia CNC",
+    icon: Bug,
+    title: "Dedetização",
     description:
-      "Usinagem de peças complexas com torno CNC de alta precisão. Tolerâncias apertadas e repetibilidade garantida para produção em série ou peças unitárias.",
+      "Controle de insetos rasteiros e voadores como baratas, formigas, mosquitos, aranhas e escorpiões. Produtos seguros e eficazes para sua família.",
   },
   {
-    icon: Settings,
-    title: "Tornearia Convencional",
+    icon: Shield,
+    title: "Descupinização",
     description:
-      "Torneamento manual para peças sob medida, reparos e protótipos. Flexibilidade e experiência para atender demandas específicas do seu projeto.",
+      "Tratamento preventivo e corretivo contra cupins. Protegemos móveis, estruturas de madeira e todo o seu patrimônio com técnicas modernas.",
+  },
+  {
+    icon: Droplets,
+    title: "Desentupimento",
+    description:
+      "Desentupimento de pias, ralos, vasos sanitários, caixas de gordura e redes de esgoto. Atendimento rápido e equipamentos de última geração.",
+  },
+  {
+    icon: Home,
+    title: "Limpeza de Caixa D'água",
+    description:
+      "Higienização completa de caixas d'água e cisternas. Garantimos água limpa e livre de contaminações para sua família ou empresa.",
+  },
+  {
+    icon: Rat,
+    title: "Desratização",
+    description:
+      "Controle de roedores com métodos seguros e eficientes. Eliminamos ratos e ratazanas protegendo sua saúde e seu patrimônio.",
   },
   {
     icon: Wrench,
-    title: "Fresagem",
+    title: "Limpeza de Fossa",
     description:
-      "Fresamento de peças planas, canais, engrenagens e perfis complexos. Equipamentos modernos para garantir qualidade em cada operação.",
-  },
-  {
-    icon: Ruler,
-    title: "Usinagem Sob Medida",
-    description:
-      "Desenvolvimento de peças especiais conforme desenho técnico ou amostra. Do projeto ao produto final com acompanhamento dedicado.",
-  },
-  {
-    icon: CircleDot,
-    title: "Retifica e Acabamento",
-    description:
-      "Serviços de retifica cilíndrica e plana para acabamento superficial de alta qualidade. Precisão micrométrica para aplicações críticas.",
-  },
-  {
-    icon: Hammer,
-    title: "Manutenção Industrial",
-    description:
-      "Fabricação e reparo de peças para máquinas industriais. Atendimento ágil para minimizar o tempo de parada da sua produção.",
+      "Serviço de esgotamento e limpeza de fossas sépticas com caminhão limpa-fossa. Descarte adequado e responsabilidade ambiental.",
   },
 ]
 
@@ -49,12 +49,12 @@ export function ServicesSection() {
           </span>
           <h2 className="mt-3 font-display text-3xl font-bold text-foreground md:text-4xl">
             <span className="text-balance">
-              Soluções completas em usinagem
+              Soluções completas em controle de pragas
             </span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            Oferecemos uma ampla gama de serviços de usinagem para atender as
-            necessidades da sua indústria com qualidade e eficiência.
+            Oferecemos uma ampla gama de serviços para proteger sua casa ou empresa
+            contra pragas e problemas hidráulicos com qualidade e segurança.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export function ServicesSection() {
               className="group rounded-xl border border-border bg-card p-8 transition-all duration-500 hover:border-primary/50 hover:shadow-2xl hover:scale-105 hover:-translate-y-1 animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-orange-400/10 transition-all duration-300 group-hover:bg-gradient-to-br group-hover:from-primary group-hover:to-orange-400 group-hover:scale-110 group-hover:rotate-3">
+              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-emerald-400/10 transition-all duration-300 group-hover:bg-gradient-to-br group-hover:from-primary group-hover:to-emerald-400 group-hover:scale-110 group-hover:rotate-3">
                 <service.icon className="h-7 w-7 text-primary transition-colors group-hover:text-primary-foreground" />
               </div>
               <h3 className="mt-6 font-display text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
