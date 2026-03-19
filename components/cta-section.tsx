@@ -2,39 +2,13 @@
 
 import { Phone, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
 import { SITE_CONFIG } from "@/src/config/site-config"
 
 export function CTASection() {
-  const [isVisible, setIsVisible] = useState(false)
-  const sectionRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    const currentRef = sectionRef.current
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true)
-        }
-      },
-      { threshold: 0.3 }
-    )
-
-    if (currentRef) {
-      observer.observe(currentRef)
-    }
-
-    return () => {
-      if (currentRef) {
-        observer.unobserve(currentRef)
-      }
-      observer.disconnect()
-    }
-  }, [])
 
   return (
-    <section ref={sectionRef} className="relative overflow-hidden py-24 border-t border-b border-white">
+    <section className="relative overflow-hidden py-24 border-t border-b border-white">
       <Image
         src="/images/cta-clinica-dedetizacao.jpg"
         alt="Equipe profissional de dedetização em clínica"
@@ -62,9 +36,7 @@ export function CTASection() {
           >
             <Button
               size="lg"
-              className={`gap-2 bg-accent px-10 text-lg text-accent-foreground hover:bg-accent/90 hover:scale-110 hover:shadow-2xl transition-all duration-500 rounded-full focus-visible:ring-2 focus-visible:ring-accent-foreground focus-visible:ring-offset-2 ${
-                isVisible ? "scale-100" : "scale-95"
-              }`}
+              className="gap-2 bg-accent px-10 text-lg text-accent-foreground hover:bg-accent/90 hover:scale-110 hover:shadow-2xl transition-all duration-500 rounded-full focus-visible:ring-2 focus-visible:ring-accent-foreground focus-visible:ring-offset-2 scale-100"
             >
               <MessageCircle className="h-5 w-5" />
               {SITE_CONFIG.cta.primaryButton}
