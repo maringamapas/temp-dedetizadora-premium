@@ -1,4 +1,4 @@
-import { MapPin, Phone, ArrowRight, Instagram, Facebook, Twitter, Linkedin } from "lucide-react"
+import { MapPin, Phone, ArrowRight } from "lucide-react"
 import { SITE_CONFIG } from "@/src/config/site-config"
 
 export function ContactFooter() {
@@ -76,49 +76,6 @@ export function ContactFooter() {
                         </li>
                       ))}
                     </ul>
-                  </div>
-                </div>
-
-                {/* Social Media */}
-                <div className="mt-8">
-                  <h4 className="text-white font-medium mb-4">Redes Sociais</h4>
-                  <div className="flex gap-3">
-                    <a 
-                      href={SITE_CONFIG.social.instagram}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
-                      aria-label="Instagram"
-                    >
-                      <Instagram className="h-4 w-4" strokeWidth={1.5} />
-                    </a>
-                    <a 
-                      href={SITE_CONFIG.social.facebook}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
-                      aria-label="Facebook"
-                    >
-                      <Facebook className="h-4 w-4" strokeWidth={1.5} />
-                    </a>
-                    <a 
-                      href={SITE_CONFIG.social.twitter}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
-                      aria-label="Twitter"
-                    >
-                      <Twitter className="h-4 w-4" strokeWidth={1.5} />
-                    </a>
-                    <a 
-                      href={SITE_CONFIG.social.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
-                      aria-label="LinkedIn"
-                    >
-                      <Linkedin className="h-4 w-4" strokeWidth={1.5} />
-                    </a>
                   </div>
                 </div>
               </div>
