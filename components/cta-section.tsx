@@ -14,7 +14,7 @@ export function CTASection() {
         className="object-cover object-center"
         priority={false}
       />
-      <div className="absolute inset-0 bg-primary" style={{ opacity: 0.95 }} suppressHydrationWarning={true} />
+      <div className="absolute inset-0 bg-primary/90" />
       <div className="relative mx-auto max-w-4xl px-4 text-center lg:px-8">
         <h2 className="font-display text-3xl font-bold text-primary-foreground md:text-5xl animate-slide-up">
           <span className="text-balance">
