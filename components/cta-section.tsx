@@ -4,7 +4,6 @@ import Image from "next/image"
 import { SITE_CONFIG } from "@/src/config/site-config"
 
 export function CTASection() {
-  // Force rebuild: v16-update
   return (
     <section className="relative overflow-hidden py-24 border-t border-b border-white">
       <Image
@@ -15,7 +14,11 @@ export function CTASection() {
         className="object-cover object-center"
         priority={false}
       />
-      <div className="absolute inset-0 bg-primary/85" />
+      <div 
+        className="absolute inset-0"
+        style={{ backgroundColor: 'hsl(156 100% 17% / 0.85)' }}
+        suppressHydrationWarning
+      />
       <div className="relative mx-auto max-w-4xl px-4 text-center lg:px-8">
         <h2 className="font-display text-3xl font-bold text-primary-foreground md:text-5xl animate-slide-up">
           <span className="text-balance">

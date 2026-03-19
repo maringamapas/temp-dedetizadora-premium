@@ -40,7 +40,7 @@ export function ContactFooter() {
                   href={`https://wa.me/${SITE_CONFIG.contact.whatsapp}`} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-emerald-400 hover:from-emerald-400 hover:to-emerald-300 text-white px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg"
+                  className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg"
                 >
                   {SITE_CONFIG.nav.ctaText}
                   <ArrowRight className="h-4 w-4" strokeWidth={1.5} />
@@ -120,7 +120,7 @@ export function ContactFooter() {
                     href={SITE_CONFIG.footer.madeBy.link} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="text-emerald-500 hover:text-emerald-400 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     WebStudio
                   </a>
