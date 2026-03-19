@@ -43,7 +43,7 @@ export function CTASection() {
         className="object-cover object-center"
         priority={false}
       />
-      <div className="absolute inset-0 bg-primary/95" />
+      <div className="absolute inset-0 bg-primary/80" />
       <div className="relative mx-auto max-w-4xl px-4 text-center lg:px-8">
         <h2 className="font-display text-3xl font-bold text-primary-foreground md:text-5xl animate-slide-up">
           <span className="text-balance">
