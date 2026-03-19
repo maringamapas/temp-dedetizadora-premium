@@ -14,30 +14,30 @@ interface GalleryImage {
 const galleryData: GalleryImage[] = [
   {
     id: 1,
-    src: "/images/foto-01.jpg",
-    alt: "Tornearia CNC de precisão",
-    title: "Tornearia CNC de precisão",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/casa-dedetizacao-1200x675-3FFx0BWGW1RYJroA98qxJywGVKDYr7.jpg",
+    alt: "Profissional de dedetização em frente a residência",
+    title: "Dedetização Residencial",
     span: "col-span-1"
   },
   {
     id: 2,
-    src: "/images/foto-02.jpg",
-    alt: "Fresagem industrial",
-    title: "Fresagem industrial",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/caminhao-limpa-fossa%20%282%29-llSgX3WdtnfbOk2COop8Nrv6N6qeWG.jpg",
+    alt: "Caminhão limpa-fossa em frente a residência",
+    title: "Limpa-Fossa",
+    span: "col-span-2"
+  },
+  {
+    id: 3,
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dedetizacao-escritorio-2-lKer2wJf61aQDUeKBjHpY4WH4o6DtX.jpg",
+    alt: "Profissionais fazendo dedetização em escritório",
+    title: "Dedetização em Escritório",
     span: "col-span-2"
   },
   {
     id: 4,
-    src: "/images/foto-04.jpg",
-    alt: "Peças torneadas",
-    title: "Peças torneadas",
-    span: "col-span-2"
-  },
-  {
-    id: 5,
-    src: "/images/foto-05.jpg",
-    alt: "Processo de usinagem",
-    title: "Processo de usinagem",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Cupim%202-oIilGCJTDKkxM95rczsrtpHHFf9qNr.jpg",
+    alt: "Cupins em madeira - controle de pragas",
+    title: "Controle de Cupins",
     span: "col-span-1"
   },
 ]
@@ -101,7 +101,7 @@ export function GaleriaFotos() {
               </span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-              Confira alguns dos nossos projetos de usinagem de precisão
+              Confira alguns dos nossos serviços de dedetização, desentupimento e limpa-fossa
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[300px] gap-4">
