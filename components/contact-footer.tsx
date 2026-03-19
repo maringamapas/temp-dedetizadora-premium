@@ -83,42 +83,26 @@ export function ContactFooter() {
                 <div className="mt-8">
                   <h4 className="text-white font-medium mb-4">Redes Sociais</h4>
                   <div className="flex gap-3">
-                    <a 
-                      href={SITE_CONFIG.social.instagram}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
-                      aria-label="Instagram"
+                    <div 
+                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80"
                     >
                       <Instagram className="h-4 w-4" strokeWidth={1.5} />
-                    </a>
-                    <a 
-                      href={SITE_CONFIG.social.facebook}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
-                      aria-label="Facebook"
+                    </div>
+                    <div 
+                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80"
                     >
                       <Facebook className="h-4 w-4" strokeWidth={1.5} />
-                    </a>
-                    <a 
-                      href={SITE_CONFIG.social.twitter}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
-                      aria-label="Twitter"
+                    </div>
+                    <div 
+                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80"
                     >
                       <Twitter className="h-4 w-4" strokeWidth={1.5} />
-                    </a>
-                    <a 
-                      href={SITE_CONFIG.social.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80 hover:text-white hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-400 transition-all duration-300 hover:scale-110 hover:rotate-12 focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
-                      aria-label="LinkedIn"
+                    </div>
+                    <div 
+                      className="flex items-center justify-center h-10 w-10 rounded-full bg-white/10 ring-1 ring-white/20 text-white/80"
                     >
                       <Linkedin className="h-4 w-4" strokeWidth={1.5} />
-                    </a>
+                    </div>
                   </div>
                 </div>
               </div>
