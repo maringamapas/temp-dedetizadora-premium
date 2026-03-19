@@ -21,7 +21,7 @@ export function HeroSection() {
           <div className="max-w-3xl">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 animate-fade-in backdrop-blur-sm" role="status" aria-live="polite">
               <span className="h-2 w-2 rounded-full bg-primary animate-pulse" aria-hidden="true" />
-              <span className="text-sm font-medium text-primary">
+              <span className="text-sm font-medium text-white">
                 {SITE_CONFIG.hero.badge}
               </span>
             </div>
