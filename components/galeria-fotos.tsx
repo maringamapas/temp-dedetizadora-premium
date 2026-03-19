@@ -28,9 +28,9 @@ const galleryData: GalleryImage[] = [
   },
   {
     id: 3,
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/desentupidora-1080-2-n2V1u1HxMF99QCJ56ZeyGDF2OLXbgf.png",
-    alt: "Profissional desentupindo caixa de esgoto",
-    title: "Desentupimento",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dedetizacao-escritorio-2-lKer2wJf61aQDUeKBjHpY4WH4o6DtX.jpg",
+    alt: "Profissionais fazendo dedetização em escritório",
+    title: "Dedetização em Escritório",
     span: "col-span-2"
   },
   {
