@@ -17,6 +17,7 @@ export function CTASection() {
       <div 
         className="absolute inset-0"
         style={{ backgroundColor: 'hsl(156 100% 17% / 0.85)' }}
+        suppressHydrationWarning
       />
       <div className="relative mx-auto max-w-4xl px-4 text-center lg:px-8">
         <h2 className="font-display text-3xl font-bold text-primary-foreground md:text-5xl animate-slide-up">
