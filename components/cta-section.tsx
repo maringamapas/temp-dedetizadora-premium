@@ -1,12 +1,9 @@
-"use client"
-
 import { Phone, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { SITE_CONFIG } from "@/src/config/site-config"
 
 export function CTASection() {
-
   return (
     <section className="relative overflow-hidden py-24 border-t border-b border-white">
       <Image
